@@ -1,4 +1,4 @@
-const carteira = "bc1qqdlfgenrgt4ksqgev8ze4q58pcycfjqmcr9ett";
+const carteira = "bc1q9xjspgugpp438reh73fm42xv6e8ct9vf2ypw7p";
 var apis = [`https://blockchain.info/q/addressbalance/${carteira}`, 'https://economia.awesomeapi.com.br/json/BTC-BRL/1'];
 
 var resp = [];
