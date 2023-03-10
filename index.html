@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/libs/chart.js"></script>
+    <script type="text/javascript" src="js/libs/jquery_ajax.js"></script>
+  </head>
+  <body>
+    <div id="menu">
+      <header>
+        <a id="txt">Lista do SrZK</a>
+        <ul>
+          <li><a href="#bitcoin"><i class="fa-brands fa-bitcoin"></i> Bitcoin</a></li>
+          <li><a href="#sobre"><i class="fa-solid fa-paperclip"></i> Sobre</a></li>
+          <li><a href="#redes"><i class="fa-solid fa-users"></i> Redes</a></li>
+          <li><a href="#"><i class="fa-solid fa-address-book"></i> Contato</a></li>
+        </ul>
+      </header>
+    </div>
+    <div id="bitcoin">
+      <div id="btc_left">
+        <center>
+          <div id="btc">
+            <label>carteira do SrZK</label>
+            <ul>
+              <li><h1 id="real">Load...</h1></li>
+              <li><a id="carteira">carteira: </a></li>
+            </ul>
+          </div>
+          <div id="btc">
+            <canvas id="myChart"></canvas>
+            <canvas id="badCanvas2">Seu browser não tem suport para esse elemento.</canvas>
+          </div>
+        </center>
+      </div>
+      <div id="btc_right">
+        <center>
+          <div id="qrcode">
+            <ul>
+              <li><img src="imgs/qt.png"></li>
+              <li><p>Se você gostou dos projetos online que eu criei e gostaria de apoiar o meu trabalho, eu ficaria muito grato se você pudesse escanear o QR code fornecido e enviar qualquer quantia de Bitcoin que desejar. No entanto, se você não quiser contribuir neste momento, não há problema, pois continuarei a criar e compartilhar projetos gratuitos para todos. Obrigado pela sua consideração!</p></li>
+            </ul>
+          </div>
+        </center>
+      </div>
+    </div>
+    <div id="sobre">
+      <svg viewBox="0 0 1440 400">
+        <path  fill="rgb(16, 28, 38)" fill-opacity="1" d="M 0,400 C 0,400 0,200 0,200 C 306.5,174 613,148 853,148 C 1093,148 1266.5,174 1440,200 C 1440,200 1440,400 1440,400 Z"></path>
+        </svg>
+      <hgroup>
+        <h1>Sobre</h1>
+      </hgroup>
+      <p>
+        Dêivid, também conhecido como SrZk, é um jovem brasileiro nascido em 2002 que se dedica ao estudo de programação e cibersegurança desde os 11 anos de idade. Ele é conhecido por compartilhar seu conhecimento no YouTube, onde demonstra técnicas usadas por hackers, e é dono de um perfil no GitHub com diversas ferramentas para estudo que desenvolveu. Seu trabalho tem sido muito valorizado pela comunidade de segurança da informação, que reconhece sua habilidade técnica e dedicação ao assunto.
+      </p>
+      <svg viewBox="0 0 1440 100">
+        <path  fill="rgb(153, 217, 240)" fill-opacity="1" d="M0,80L1440,30L2880,50L4320,60L5760,10L7200,80L8640,80L10080,20L11520,60L12960,0L14400,90L15840,30L17280,90L18720,40L20160,30L21600,80L23040,70L24480,80L25920,40L27360,0L28800,90L30240,30L31680,0L33120,10L34560,30L34560,100L33120,100L31680,100L30240,100L28800,100L27360,100L25920,100L24480,100L23040,100L21600,100L20160,100L18720,100L17280,100L15840,100L14400,100L12960,100L11520,100L10080,100L8640,100L7200,100L5760,100L4320,100L2880,100L1440,100L0,100Z"></path>
+      </svg>
+    </div>
+    <div id="redes">
+    </div>
+    <div id="contato">
+      <ul>
+        <li><a href="https://t.me/Mrzkexe">telegram</a></li>
+        <li><a href="https://mail.google.com/mail/u/0/?to=deividfar33@gmail.com&tf=cm">email</a></li>
+        <li><a href="#">discord</a></li>
+      </ul>
+    </div>
+    <script type="text/javascript" src="js/libs/vanilla.js"></script>
+    <script src="https://kit.fontawesome.com/678d627ae0.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/config_chart.js"></script>
+    <script type="text/javascript" src="js/redes.js"></script>
+    <script type="text/javascript" src="js/vn.js"></script>
+  </body>
+</html>
